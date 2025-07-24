@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../../index.css";
 const revenus = [
   {
     amount: 7020600,
@@ -67,12 +67,12 @@ const RevenueCard = () => {
             ${item.amount}
           </span>
           <div className="flex flex-col w-[186px] h-[52px] gap-[4px] overflow-hidden">
-            <span className="w-[186px] h-[24px] font-poppins font-medium text-[16px] leading-[24px] text-[#425166]">
+            <span className="w-[186px] h-[24px] font-inter font-medium text-[16px] leading-[24px] tracking-[0%] text-[#425166]">
               {item.user}
             </span>
             <div className="flex w-[77px] h-[24px] gap-[5px] items-center">
-              <img src="/userslogo.svg"/>
-              <span className="w-[58px] h-[24px] font-poppins font-medium text-[16px] leading-[24px] text-[#425166] text-center">
+              <img src="/userslogo.svg" />
+              <span className="w-[58px] h-[24px] font-inter font-medium text-[16px] leading-[24px] text-[#425166] text-center">
                 {item.TotalUsers}
               </span>
             </div>
